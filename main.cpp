@@ -69,6 +69,7 @@ complex_t add(complex_t a, complex_t b)
    {
      complex_t a,b,res;
      string str;
+     getline( cin , str );
       
     istringstream stream(str);
      char oper;
